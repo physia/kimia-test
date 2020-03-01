@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html dark ltr>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mini-docs</title>
+    <link href="dist/css/physia.autoprefixer.css" rel="stylesheet">
+    <!--link href="/dist/css/widgets.css" rel="stylesheet"-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900|Droid+Arabic+Kufi"
+        rel="stylesheet">
+    <style>
+        html {
+            font-family: 'Droid Arabic Kufi', "Roboto";
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div>
+        <div class="b b-c a-c m-b-10 p-y-10 c19  c1-t">
+
+
+            <div class="x12 m:x6 l:x4">
+
+                <div class="CASE" dir="rtl">
+                    <div onclick="setTheme('rtl','ltr')" style="--el-p: 0;" class="unt btn-n p-x-5 -o-h -o-2">rtl</div>
+                    <div onclick="setTheme('ltr','rtl')" class="unt btn-n p-x-5 -o-h -o-2">ltr</div>
+                    <div onclick="setTheme('dark','light')" class="unt btn-n p-x-5 -o-h -o-1">dark</div>
+                    <div onclick="setTheme('light','dark')" class="unt btn-n p-x-5 -o-h -o-1">light</div>
+                </div>
+                <div class="rlt r-16:9 -o-h">
+                    <div style="transform: translateY(calc(-100% * var(--is-dark))) translateX(calc(-100% * var(--is-rtl)));"
+                        class="r b b-cl b-c >>>">
+                        <h4 class="Case w#3 s-o-8"><span class="Case w#9">@physia</span> Framework</h4>
+                        <h1 class="Case w#9">Mini-docs</h1>
+                    </div>
+                    <div style="transform: translateY(calc(-100% * var(--is-dark))) translateX(calc(100% * var(--is-ltr)));"
+                        class="r b b-cl b-c >>>">
+                        <h4 class="Case w#3 s-o-8"><span class="Case w#9">@فيزيا</span> إطار عمل</h4>
+                        <h1 class="Case w#9">توثيق-مبسط</h1>
+                    </div>
+                    <div style="transform: translateY(calc(100% * var(--is-light))) translateX(calc(-100% * var(--is-rtl)));"
+                        class="r b b-cl b-c >>>">
+                        <h4 class="Case w#3 s-o-8"><span class="Case w#9">@physia</span> Framework</h4>
+                        <h1 class="Case w#9">DARK</h1>
+                    </div>
+                    <div style="transform: translateY(calc(100% * var(--is-light))) translateX(calc(100% * var(--is-ltr)));"
+                        class="r b b-cl b-c >>>">
+                        <h4 class="Case w#3 s-o-8"><span class="Case w#9">@فيزيا</span> إطار عمل</h4>
+                        <h1 class="Case w#9">مُظلم</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="l:x10 m-a">
+            <div class="m-5">
+                <h2 class="Case">Cards</h2>
+                <div class="g@">
+                    <div class="x12 m:x4 p-5">
+                        <h4 class="#4">simple card</h4>
+                        <div class="g@">
+                            <div class="x12">
+                                <h5 class="s-o-7">Basic</h5>
+                                <div class="b b-a-c">
+                                    <pre class="p-3 c# c16  s-o-5 w-f">&lt;div class="crd"&gt;
+    &lt;div class="p-4 b b-a-c"&gt;
+        &lt;img src="https://picsum.photos/300/300" class="u-8 -r-c"&gt;
+        &lt;div class="p-s-4 b-fg"&gt;
+            &lt;div class="t#2 Case"&gt;Developer&lt;/div&gt;
+            &lt;div class="c# case"&gt;@username&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="unt btn-n u-8"&gt;&lt;i class="material-icons"&gt;more_vert&lt;/i&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="ln"&gt;&lt;/div&gt;
+    &lt;img class="w-f" src="https://picsum.photos/300/300"&gt;
+    &lt;div class="p-5"&gt;
+        &lt;div class="t#1 Case"&gt;card title&lt;/div&gt;
+        &lt;div class="s#1 case"&gt;card caption&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="ln"&gt;&lt;/div&gt;
+    &lt;div class="p-4 b"&gt;
+        &lt;div class="b-sp"&gt;&lt;/div&gt;
+        &lt;div class="unt btn-n p-x-4 CASE"&gt;remove&lt;iclass="material-icons -i-x"&gt;remove&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class="unt btn-n p-x-4 CASE"&gt;add&lt;i class="material-icons -i-x"&gt;add&lt;/i&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                                </div>
+                            </div>
+                            <div class="x12">
+                                <h5 class="s-o-7">more</h5>
+                                <div class="crd w-15">
+                                    <div class="p-4 b b-a-c">
+                                        <img src="https://picsum.photos/300/300" class="u-8 -r-c">
+                                        <div class="p-s-4 b-fg">
+                                            <div class="t#2 Case">Developer</div>
+                                            <div class="c# case">@username</div>
+                                        </div>
+                                        <div class="unt btn-n u-8"><i class="material-icons">more_vert</i>
+                                        </div>
+                                    </div>
+                                    <div class="ln"></div>
+                                    <img class="w-f" src="https://picsum.photos/300/300">
+                                    <div class="p-5">
+                                        <div class="t#1 Case">card title</div>
+                                        <div class="s#1 case">card caption</div>
+                                    </div>
+                                    <div class="ln"></div>
+                                    <div class="p-4 b">
+                                        <div class="b-sp"></div>
+                                        <div class="unt btn-n p-x-4 CASE">remove<iclass="material-icons -i-x"="">remove
+                                            </iclass="material-icons>
+                                        </div>
+                                        <div class="unt btn-n p-x-4 CASE">add<i class="material-icons -i-x">add</i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-5 x12 m:x8  c19 -r-e-l">
+                        <h2>Test</h2>
+                        <div>
+                            <h4 class="#4">card image</h4>
+                            <div class="g@">
+                                <div class="p-4 x6 m:x3">
+                                    <div class="crd">
+                                        <div class="rlt b -r-i">
+                                            <div class="p-5 abs .b-n c-20-t">
+                                                <div class="t#1 Case">Simple</div>
+                                                <div class="s#1 case">card caption</div>
+                                            </div>
+                                            <img class="w-f -r-i" src="https://dummyimage.com/300x300/000000/ffffff">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-4 x6 m:x3">
+                                    <div class="crd">
+                                        <div class="rlt b -r-i">
+                                            <div class="-r-i  abs .f c-0 s-o-3"></div>
+                                            <div class="p-5 abs .f b b-cl b-j-e c-20-t">
+                                                <div class="t#1 Case">Grim background</div>
+                                                <div class="s#1 case">card caption</div>
+                                            </div>
+                                            <img class="w-f -r-i" src="https://dummyimage.com/300x300/ffffff/035746">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-4 x6 m:x3">
+                                    <div class="crd">
+                                        <div class="rlt b -r-i">
+                                            <div class="-r-i abs .f -grdnt-b"></div>
+                                            <div class="p-5 abs .b-n c-20-t">
+                                                <div class="t#1 Case">Gradient</div>
+                                                <div class="s#1 case">card caption</div>
+                                            </div>
+                                            <img class="w-f -r-i" src="https://dummyimage.com/300x300/ffffff/035746">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-4 x6 m:x3">
+                                    <div class="crd">
+                                        <div class="rlt b -r-i r-1:1">
+                                            <img class="r w-f -r-i" src="https://dummyimage.com/300x100/ffffff/035746">
+                                            <div class="-r-i abs .f -grdnt-b"></div>
+                                            <div class="p-5 abs .b-n c-20-t">
+                                                <div class="t#1 Case">Aspect ratio 1:1</div>
+                                                <div class="s#1 case">more 4:3, 16:9...</div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g@">
+                            <div class="x12 m:x6 p-4" light="">
+                                <h4 class="#4">divider light</h4>
+                                <div class="b">
+
+
+
+                                    <div class="crd p-y-10 m-4 u-13 ">
+                                        <div class="ln"></div>
+                                    </div>
+                                    <div class="crd p-x-10 m-4 u-13">
+                                        <div class="ln-y"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="x12 m:x6 p-4" dark="">
+                                <h4 class="#4">divider dark</h4>
+                                <div class="b">
+
+
+
+                                    <div class="crd p-y-10 m-4 u-13 ">
+                                        <div class="ln"></div>
+                                    </div>
+                                    <div class="crd p-x-10 m-4 u-13">
+                                        <div class="ln-y"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="#4">build</h4>
+                            <div>
+                                <div class="crd e-12 m-4 p-6">
+                                    <div class="b b-j-sb b-a-c m-b-4">
+                                        <div class="s#1">Downloading...</div>
+                                        <div class="b b-c"><span class="m-e-4">56%</span>
+                                            <svg viewBox="0 0 38 38" class="prgc prg-inf u-6">
+                                                <circle cy="50%" cx="50%" r="18" style="stroke-width: 3px;"></circle>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="prg h-2">
+                                        <div style="width: 56%;" class="prg-cnt"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-5">
+                <h2 class="Case">form</h2>
+                <div class="g@">
+                    <div class="x12 m:x4 p-5">
+                        <h4 class="#4">Rang</h4>
+                        <div class="g@">
+                            <div class="x12">
+                                <h5 class="s-o-7">Basic</h5>
+                                <div class="b b-cl b-a-c">
+                                    <input type="range" class="rng">
+                                    <pre class="m-4 p-3 c# c16  s-o-5">&lt;input type="range" class="rng"&gt;</pre>
+                                </div>
+                            </div>
+                            <div class="x12">
+                                <h5 class="s-o-7">more</h5>
+                                <div>
+                                    <div class="m-b-4">
+                                        <input type="range" class="rng w-f" max="3" min="1">
+                                        <div class="b b-j-sb p-x-3">
+                                            <div class="b b-cl b-a-c w-n">
+                                                <div class="w-2 h-4 c17 "></div>0%
+                                            </div>
+                                            <div class="b b-cl b-a-c w-n">
+                                                <div class="w-2 h-4 c17 "></div>50%
+                                            </div>
+                                            <div class="b b-cl b-a-c w-n">
+                                                <div class="w-2 h-4 c17 "></div>100%
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="x12 m:x4 p-5">
+                        <h4 class="#4">InputField</h4>
+                        <div class="s#1 p-y-4 c-ylw b b-c c-0-t">
+                            <i class="material-icons m-s-5">info</i>
+                            <div class=" m-x-4">you can use "fld" class with select, input, textarea...</div>
+                        </div>
+                        <div class="g@">
+                            <div class="x12">
+                                <h5 class="s-o-7">Basic</h5>
+                                <div class="b b-cl b-a-c">
+                                    <input class="fld">
+                                    <pre class="m-4 p-3 c# c16  s-o-5">&lt;input class="fld"&gt;</pre>
+                                </div>
+                            </div>
+                            <div class="x12">
+                                <h5 class="s-o-7">more</h5>
+                                <div>
+                                    <div class="m-b-2"><input class="fld fld-n" placeholder="search"></div>
+                                    <div class="m-b-2"><input placeholder="search" class="fld fld-n c19  p-x-4 -r-s">
+                                    </div>
+                                    <div class="m-b-2"><input placeholder="search"
+                                            class="fld fld-n c19  p-x-5 -r-c -b -b-1 c17-b  f:c-s-b "></div>
+                                    <div class="m-b-2 rlt">
+                                        <i class="material-icons abs u-7">person</i>
+                                        <input placeholder="search" class="fld c19  p-s-7 -r-t-m ">
+                                    </div>
+                                    <div class="m-b-2">
+                                        <input placeholder="search"
+                                            class="fld fld-n c19  p-x-4 -r-m -b -b-2 f:c-s-b c17-b ">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="x12 m:x4 p-5">
+                        <h4 class="#4">SelectField</h4>
+                        <div class="g@">
+                            <div class="x12">
+                                <h5 class="s-o-7">Basic</h5>
+                                <div class="b b-cl b-a-c">
+                                    <select class="fld">
+                                        <option>Dz algeria</option>
+                                        <option>Tn Tunisia</option>
+                                    </select>
+                                    <pre class="m-4 p-3 c# c16  s-o-5">&lt;select class="fld"&gt;
+                      &lt;option&gt;Dz algeria&lt;/option&gt;
+                      &lt;option&gt;Tn Tunisia&lt;/option&gt;
+                    &lt;/select&gt;</pre>
+                                </div>
+                            </div>
+                            <div class="x12">
+                                <h5 class="s-o-7">more</h5>
+                                <div>
+                                    <div class="m-b-4">
+                                        <select class="fld fld-n c19  p-x-4 -r-m -b -b-2 f:c-s-b c17-b  w-f">
+                                            <option>Dz algeria</option>
+                                            <option>Tn Tunisia</option>
+                                        </select>
+                                    </div>
+                                    <div class="m-b-2 rlt">
+                                        <i class="material-icons abs u-7">person</i>
+                                        <select class="fld c19  p-s-7 -r-t-m w-f -aprnc">
+                                            <option>Dz algeria</option>
+                                            <option>Tn Tunisia</option>
+                                        </select>
+                                        <i class="material-icons abs .e-n .t-n u-7">keyboard_arrow_down</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="x12 m:x4 p-5">
+                        <h4 class="#4">radiobutton</h4>
+                        <div class="g@">
+                            <div class="x12">
+                                <h5 class="s-o-7">Basic</h5>
+                                <div class="b b-a-c">
+                                    <label class="rdo">
+                                        <input type="radio">
+                                        <div class="rdo-hnd">
+                                            <div class="hnd"></div>
+                                        </div>
+                                    </label>
+                                    <pre class="m-4 p-3 c# c16  s-o-5">&lt;label class="rdo"&gt;
+                &lt;input type="radio"&gt;
+                &lt;div class="rdo-hnd"&gt;
+                    &lt;div class="hnd"&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/label&gt;</pre>
+                                </div>
+                            </div>
+                            <div class="x12">
+                                <h5 class="s-o-7">more</h5>
+                                <div>
+                                    <label class="rdo itm unt p-x-4 s-d">
+                                        <span class="m-e-a">Disabled</span>
+                                        <input type="radio" name="rdo">
+                                        <div class="rdo-hnd">
+                                            <div class="hnd"></div>
+                                        </div>
+                                    </label>
+                                    <label class="rdo itm unt p-x-4">
+                                        <span class="m-e-a">Radio</span>
+                                        <input type="radio" name="rdo">
+                                        <div class="rdo-hnd">
+                                            <div class="hnd"></div>
+                                        </div>
+                                    </label>
+                                    <label class="rdo itm unt p-x-4">
+                                        <span class="m-e-a">Radio</span>
+                                        <input type="radio" name="rdo">
+                                        <div class="rdo-hnd">
+                                            <div class="hnd"></div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="x12 m:x4 p-5">
+                        <h4 class="#4">checkbox</h4>
+                        <div class="g@">
+                            <div class="x12">
+                                <h5 class="s-o-7">Basic</h5>
+                                <div class="b b-a-c">
+                                    <label class="chk">
+                                        <input type="checkbox">
+                                        <div class="chk-hnd">
+                                            <div class="hnd"></div>
+                                        </div>
+                                    </label>
+                                    <pre class="m-4 p-3 c# c16  s-o-5">&lt;label class="chk"&gt;
+                &lt;input type="checkbox"&gt;
+                &lt;div class="chk-hnd"&gt;
+                    &lt;div class="hnd"&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/label&gt;</pre>
+                                </div>
+                            </div>
+                            <div class="x12">
+                                <h5 class="s-o-7">more</h5>
+                                <div>
+                                    <label class="chk itm unt p-x-4 s-d">
+                                        <span class="m-e-a">Disabled</span>
+                                        <input type="checkbox">
+                                        <div class="chk-hnd">
+                                            <div class="hnd"></div>
+                                        </div>
+                                    </label>
+                                    <label class="chk itm unt p-x-4">
+                                        <span class="m-e-a">On/Off</span>
+                                        <input type="checkbox">
+                                        <div class="chk-hnd  -r-c">
+                                            <div class="hnd"></div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="x12 m:x4 p-5">
+                        <h4 class="#4">switch</h4>
+                        <div class="s#1 p-y-4 c-ylw b b-c c-0-t">
+                            <i class="material-icons m-s-5">info</i>
+                            <div class=" m-x-4">you can use "switch" with checkbox or radiobutton or both</div>
+                        </div>
+                        <div class="g@">
+                            <div class="x12">
+                                <h5 class="s-o-7">Basic</h5>
+                                <div class="b b-a-c">
+                                    <label class="swt">
+                                        <input type="checkbox">
+                                        <div class="swt-hnd">
+                                            <div class="hnd"></div>
+                                        </div>
+                                    </label>
+                                    <pre class="m-4 p-3 c# c16  s-o-5">&lt;label class="swt"&gt;
+                &lt;input type="checkbox"&gt;
+                &lt;div class="swt-hnd"&gt;
+                    &lt;div class="hnd"&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/label&gt;</pre>
+                                </div>
+                            </div>
+                            <div class="x12">
+                                <h5 class="s-o-7">more</h5>
+                                <div>
+                                    <label class="swt itm unt p-x-4 s-d">
+                                        <span class="m-e-a">Disabled</span>
+                                        <input type="checkbox">
+                                        <div class="swt-hnd">
+                                            <div class="hnd"></div>
+                                        </div>
+                                    </label>
+                                    <label class="swt itm unt p-x-4">
+                                        <span class="m-e-a">On/Off</span>
+                                        <input type="checkbox">
+                                        <div class="swt-hnd">
+                                            <div class="hnd"></div>
+                                        </div>
+                                    </label>
+                                    <label class="swt itm unt p-x-4">
+                                        <span class="m-e-a">On/Off</span>
+                                        <input type="checkbox">
+                                        <div class="swt-hnd h-6 w-8 p-s-2">
+                                            <div class="hnd"></div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-5">
+                <h2 class="Case">Units</h2>
+                <div class="g@">
+                    <div class="x12 m:x4 p-5">
+                        <h4 class="#4">buttons</h4>
+                        <div class="g@">
+                            <div class="x12">
+                                <h5 class="s-o-7">Basic</h5>
+                                <div class="b b-a-c">
+                                    <div class="unt btn">BTN</div>
+                                    <pre class="m-4 p-3 c# c16  s-o-5">&lt;div class="unt btn"&gt;BTN&lt;/div&gt;</pre>
+                                </div>
+                            </div>
+                            <div class="x12">
+                                <h5 class="s-o-7">more</h5>
+                                <div>
+                                    <div class="unt btn-n m-b-3 m-e-3 p-s-5"><i class="material-icons">arrow_back</i>add
+                                    </div>
+                                    <div class="unt btn e m-b-3 m-e-3 p-s-5"><i class="material-icons">add</i>add
+                                    </div>
+                                    <div class="unt btn -o-2 m-b-3 m-e-3 -r-m"><i class="material-icons">add</i></div>
+                                    <div class="unt btn -o-1 m-b-3 m-e-3 -r-c u-7"><i class="material-icons">add</i>
+                                    </div>
+                                    <div class="unt btn m-b-3 m-e-3 -r-c u-7 e"><i class="material-icons">add</i>
+                                    </div>
+                                </div>
+                                <div class="s-d">
+                                    <div class="unt btn-n m-b-3 m-e-3 p-s-5"><i class="material-icons">arrow_back</i>add
+                                    </div>
+                                    <div class="unt btn e m-b-3 m-e-3 p-s-5"><i class="material-icons">add</i>add
+                                    </div>
+                                    <div class="unt btn -o-2 m-b-3 m-e-3 -r-m"><i class="material-icons">add</i></div>
+                                    <div class="unt btn -o-1 m-b-3 m-e-3 -r-c u-7"><i class="material-icons">add</i>
+                                    </div>
+                                    <div class="unt btn m-b-3 m-e-3 -r-c u-7 e"><i class="material-icons">add</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="x12 m:x4 p-5">
+                        <h4 class="#4">badges</h4>
+                        <div class="g@">
+                            <div class="x12">
+                                <h5 class="s-o-7">Basic</h5>
+                                <div class="b b-a-c">
+                                    <div class="unt bdg">new</div>
+                                    <pre class="m-4 p-3 c# c16  s-o-5">&lt;div class="unt bdg"&gt;new&lt;/div&gt;</pre>
+                                </div>
+                            </div>
+                            <div class="x12">
+                                <h5 class="s-o-7">more</h5>
+                                <div>
+                                    <div class="unt btn-n m-b-3 m-e-3 p-s-5">
+                                        <div class="unt bdg">7new</div>add
+                                    </div>
+                                    <div class="unt btn-n m-b-3 m-e-3 p-s-5">
+                                        <div class="unt bdg bdg-s">7new</div>add
+                                    </div>
+                                    <div class="unt btn-n rlt">
+                                        <div class="unt bdg bdg-f bdg-s">5</div>add
+                                    </div>
+                                    <div class="unt btn-n rlt">
+                                        <div class="unt bdg bdg-f bdg-s bdg-r">5</div>add
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="x12 m:x4 p-5">
+                        <h4 class="#4">menu</h4>
+                        <div class="g@">
+                            <div class="x12">
+                                <h5 class="s-o-7">Basic</h5>
+                                <div class="b b-cl b-c">
+                                    <div class="unt itm">menu item</div>
+                                    <pre
+                                        class="m-4 p-3 c# c16  s-o-5">&lt;div class="unt itm"&gt;menu item&lt;/div&gt;</pre>
+                                </div>
+                            </div>
+                            <div class="x12">
+                                <h5 class="s-o-7">more</h5>
+                                <div class="b b-cl b-c">
+                                    <div class="crd w-15">
+                                        <div class="p-y-4">
+                                            <div class="unt itm s-d p-s-5 CASE">pages</div>
+                                            <div class="unt itm Case"><i class="material-icons">home</i>home</div>
+                                            <div class="unt itm Case">
+                                                <i class="material-icons">person</i>account<i
+                                                    class="material-icons m-s-a -i-x">keyboard_arrow_right</i></div>
+                                        </div>
+                                        <div class="ln"></div>
+                                        <div class="p-y-4">
+                                            <div class="unt itm s-d p-s-5 CASE">more</div>
+                                            <div class="unt itm Case"><i
+                                                    class="material-icons">notifications</i>notifications<div
+                                                    class="unt bdg bdg-s m-s-a -r-c">7new</div>
+                                            </div>
+                                            <div class="unt itm Case">
+                                                <i class="material-icons">help</i>help<div class="m-s-a b b-c">
+                                                    <div class="unt bdg bdg-s -r-c">7new</div>
+                                                    <i class="material-icons -i-x">open_in_new</i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-5 g@ -r-l">
+                <div class="p-5 x12 l:x8">
+                    <h2 class="Case">progress indicator</h2>
+                    <div class="g@">
+                        <div class="x12 m:x6 p-5">
+                            <h4 class="#4">circle </h4>
+                            <div class="g@">
+                                <div class="x12">
+                                    <h5 class="s-o-7">animated</h5>
+                                    <div class="b b-a-c"><svg class="prgc prg-inf" viewBox="0 0 38 38">
+                                            <circle cx="50%" cy="50%" r="18"></circle>
+                                        </svg>
+                                        <pre class="m-4 p-3 c# c16  s-o-5">&lt;svg class="prgc prg-inf" viewBox="0 0 38 38"&gt;
+  &lt;circle cx="50%" cy="50%" r="18"&gt;&lt;/circle&gt;
+&lt;/svg&gt;</pre>
+                                    </div>
+                                </div>
+                                <div class="x12">
+                                    <h5 class="s-o-7">Fixed</h5>
+                                    <div class="b b-a-c"><svg class="prgc" viewBox="0 0 38 38" style="--prg-p: 55;">
+                                            <circle cx="50%" cy="50%" r="18"></circle>
+                                        </svg>
+                                        <pre class="m-4 p-3 c# c16  s-o-5">&lt;svg class="prgc" viewBox="0 0 38 38" style="--prg-p: 55;"&gt;
+  &lt;circle cx="50%" cy="50%" r="18"&gt;&lt;/circle&gt;
+&lt;/svg&gt;</pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="x12 m:x6">
+                            <h4 class="#4">bar</h4>
+
+
+                            <div class="g@">
+                                <div class="x12">
+                                    <h5 class="s-o-7">animated</h5>
+                                    <div class="m-4">
+                                        <div class="prg">
+                                            <div class="prg-inf"></div>
+                                        </div>
+                                        <pre class="m-4 p-3 c# c16  s-o-5">&lt;div class="prg"&gt;
+  &lt;div class="prg-inf"&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+                                    </div>
+                                </div>
+                                <div class="x12">
+                                    <h5 class="s-o-7">Fixed</h5>
+                                    <div class="m-4">
+                                        <div class="prg">
+                                            <div class="prg-cnt" style="width: 36%;"></div>
+                                        </div>
+                                        <pre class="m-4 p-3 c# c16  s-o-5">&lt;div class="prg"&gt;
+  &lt;div class="prg-cnt" style="width: 36%;"&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="p-5 x12 l:x4  c19 -r-e-l">
+                    <h2>Test</h2>
+                    <div>
+                        <h4 class="#4">circle </h4>
+
+
+                        <div>
+                            <div class="m-4 -d-ib">
+                                <svg class="prgc prg-inf" viewBox="0 0 38 38">
+                                    <circle cy="50%" cx="50%" r="18" style="stroke-width: 1px;"></circle>
+                                </svg>
+
+                            </div>
+                            <div class="m-4 -d-ib">
+                                <svg class="prgc prg-inf" viewBox="0 0 38 38">
+                                    <circle cy="50%" cx="50%" r="18" style="stroke-width: 3px;"></circle>
+                                </svg>
+
+                            </div>
+                            <div class="m-4 -d-ib">
+                                <svg class="prgc prg-inf" viewBox="0 0 38 38">
+                                    <circle cx="50%" cy="50%" r="18" style="stroke-width: 9px;"></circle>
+                                </svg>
+
+                            </div>
+                            <div class="m-4 -d-ib">
+                                <svg class="prgc prg-inf" viewBox="0 0 38 38">
+                                    <circle cx="50%" cy="50%" r="18" style="stroke-linejoin: round;stroke-width: 24;">
+                                    </circle>
+                                </svg>
+
+                            </div>
+                            <div class="m-4 -d-ib">
+                                <svg class="prgc prg-inf" viewBox="0 0 38 38">
+                                    <circle cx="50%" cy="50%" r="18"
+                                        style="fill: #f062926b;stroke-linecap: round;stroke-width: 7;"></circle>
+                                </svg>
+
+                            </div>
+                            <div class="m-4 -d-ib">
+                                <svg class="prgc prg-inf" viewBox="0 0 38 38">
+                                    <circle cx="50%" cy="50%" r="18" style="stroke-width: 35;"></circle>
+                                </svg>
+
+                            </div>
+                            <div class="m-4 -d-ib">
+                                <svg class="prgc prg-inf" viewBox="0 0 38 38">
+                                    <circle cx="50%" cy="50%" r="18" style="stroke-linecap: round;stroke-width: 7;">
+                                    </circle>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="#4">bar</h4>
+                        <div>
+                            <div class="m-4">
+                                <div class="prg h-1">
+                                    <div class="prg-inf"></div>
+                                </div>
+
+                            </div>
+                            <div class="m-4">
+                                <div class="prg">
+                                    <div class="prg-inf"></div>
+                                </div>
+
+                            </div>
+
+                            <div class="m-4">
+                                <div class="prg -r-c">
+                                    <div class="prg-inf"></div>
+                                </div>
+
+                            </div>
+                            <div class="m-4">
+                                <div class="prg -r-c h-5">
+                                    <div class="prg-inf"></div>
+                                </div>
+
+                            </div>
+                            <div class="m-4">
+                                <div class="prg -r-c h-5 p-2 -b -b-2 c-s-b">
+                                    <div class="prg-inf -r-c"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="#4">build</h4>
+
+
+                        <div>
+                            <div class="crd e-12 m-4 p-6">
+                                <div class="b b-j-sb b-a-c m-b-4">
+                                    <div class="s#1">Downloading...</div>
+                                    <div class="b b-c"><span class="m-e-4">56%</span>
+
+
+                                        <svg viewBox="0 0 38 38" class="prgc prg-inf u-6">
+                                            <circle cy="50%" cx="50%" r="18" style="stroke-width: 3px;"></circle>
+                                        </svg></div>
+                                </div>
+                                <div class="prg h-2">
+                                    <div style="width: 56%;" class="prg-cnt"></div>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!--script src="/dist/js/physia.js"></script-->
+    <script>
+        window.setTheme = function (_new, _old) {
+            var elem = document.documentElement;
+            elem.removeAttribute(_old);
+            elem.setAttribute(_new, "");
+        }
+        window.setThemeOption = function (option, _el) {
+            let $el = _el || document.body,
+                oldValue = $el.style.getPropertyValue("--" + option);
+            if (oldValue && oldValue == 1) {
+                $el.style.setProperty("--" + option, 0);
+            } else {
+                $el.style.setProperty("--" + option, 1);
+            }
+        }
+    </script>
+</body>
+
+</html>
