@@ -74,4 +74,8 @@ $color in $cl--static-colors {
     .c-#{$name}-b {
         @include _cl-border_color($color);
     }
+
+    .c-#{$name}-f {
+        @include _cl-fill_color($color);
+    }
 }

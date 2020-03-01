@@ -82,7 +82,12 @@
 @mixin _cl-text_color($color) {
     color: $color !important
 }
-
 @mixin _cl-border_color($color) {
     border-color: $color !important
 }
+
+@mixin _cl-fill_color($color) {
+    fill: $color !important
+}
+
+

@@ -28,4 +28,16 @@
     .s-o-#{$var} {
         opacity: $var/10;
     }
+
+    .h\:s-o-#{$var}:hover {
+        opacity: $var/10;
+    }
+
+    .a\:s-o-#{$var}:active {
+        opacity: $var/10;
+    }
+
+    .f\:s-o-#{$var}:focus {
+        opacity: $var/10;
+    }
 }

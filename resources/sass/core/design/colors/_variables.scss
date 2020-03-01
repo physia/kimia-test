@@ -315,6 +315,7 @@ $cl--colors-palette: (
 $cl--colors: (
   'n': transparent,
   'i': inherit,
+  'c': currentColor,
 );
 $cl--static-colors: (
   'err': #B00020,

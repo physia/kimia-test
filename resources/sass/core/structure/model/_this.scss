@@ -12,7 +12,7 @@ $sizes-list: (
     @include media($size_item)  {
         $size: $size_item;
 
-        // position
+        // display
         .#{$size}-d-b {
             display: block !important
         }
