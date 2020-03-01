@@ -1,0 +1,6 @@
+node_modules
+old
+pug
+resources\js
+Gruntfile.js
+dist/js
