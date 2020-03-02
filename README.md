@@ -1,4 +1,13 @@
-# physia
+
+<h3 align="center">Physia</h3>
+
+<p align="center">
+  <a href="https://physia.github.io/framework">
+    <img src="https://physia.github.io/framework/physia.jpg" width="150">
+  </a>
+</p>
+
+
 ![Physia logo](https://physia.github.io/framework/physia.jpg)
 Physia is web framework, easy to use and powerful,
 we made physia to make creating web-ui easy for everyone.
