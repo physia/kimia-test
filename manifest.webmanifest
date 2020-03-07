@@ -3,17 +3,17 @@
     "name": "Physia framework",
     "description": "Physia, frontend framework",
     "icons": [{
-            "src": "/images/physia-512.png",
+            "src": "/framework/images/physia-512.png",
             "type": "image/png",
             "sizes": "512x512"
         },
         {
-            "src": "/images/physia.png",
+            "src": "/framework/images/physia.png",
             "type": "image/png",
             "sizes": "144x144"
         }
     ],
-    "start_url": "/?pwa",
+    "start_url": "/framework/?pwa",
     "background_color": "#fff",
     "display": "standalone",
     "theme_color": "#fff"
