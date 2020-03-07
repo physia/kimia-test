@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://physia.github.io/framework">
-    <img src="https://physia.github.io/framework/physia-en.jpg" height="150">
+    <img src="https://physia.github.io/framework/images/physia-en.jpg" height="150">
   </a>
 </p>
 

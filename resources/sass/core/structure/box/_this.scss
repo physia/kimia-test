@@ -20,14 +20,6 @@
     flex-shrink: 0;
 }
 
-.b-fr {
-    flex-direction: row;
-}
-
-.b-fc {
-    flex-direction: column;
-}
-
 .b-fw {
     flex-wrap: wrap
 }
@@ -38,11 +30,13 @@
 
 .b-rw,
 .b-x {
+    @extend .b;
     flex-direction: row;
 }
 
 .b-cl,
 .b-y {
+    @extend .b;
     flex-direction: column;
 }
 
@@ -52,6 +46,9 @@
 }
 
 //  align
+.b-c {
+    @extend .b;
+}
 .b-a-c,
 .b-c {
     align-items: center;
